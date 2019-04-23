@@ -1,0 +1,5 @@
+set  projectlocation=D:\AutomationWorkspace\Automation
+cd %projectlocation%
+set classpath=%projectlocation%\lib\*
+java org.testng  %projectlocation% batch.xml
+pause
